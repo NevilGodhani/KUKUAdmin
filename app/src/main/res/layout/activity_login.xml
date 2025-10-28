@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".LoginActivity"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Admin Panel"
+        android:textSize="25dp"
+        android:textColor="@color/color"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"/>
+
+    <!-- Admin ID Input Field -->
+    <EditText
+        android:id="@+id/adminIdEditText"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Enter Admin ID"
+        android:inputType="text"
+        android:layout_marginBottom="12dp"/>
+
+    <!-- Password Input Field -->
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Enter Password"
+        android:inputType="textPassword"
+        android:layout_marginBottom="12dp"/>
+
+    <!-- Submit Button -->
+    <Button
+        android:id="@+id/submitBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"/>
+
+</LinearLayout>
+
+
